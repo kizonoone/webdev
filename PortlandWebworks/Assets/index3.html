@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <i class='fas fa-map-marker-alt' style='font-size:24px'></i>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="http://example.com/favicon.png">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            
+            <div class="dropdown">
+                <!--<button onclick="myFunction()" class="dropbtn"></button>-->
+                <button onclick="myFunction()" class="dropbtn type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    &#x2630 <br> MENU
+                    </button>
+                    
+                    <div class="collapse" id="collapseExample">
+                    </div>
+
+                <div id="myDropdown" class="dropdown-content">
+                    <div class = "text33">
+                        <div class = Menu>
+                            <a href="#home">Home</a>
+                            <a href="#about">News & Events</a>
+                            <a href="#contact">About Us</a>
+                            <a href="#about">Contact Us</a>
+                            <a href="#contact">Boards & Comittees</a>
+                        </div>
+                        
+                        <div class = Menu2>                         
+                            <div class = Menu11 >
+                                <span>DATA & RESEARCH<br><hr><br>
+                                    Economy<br>
+                                    State Finances<br>
+                                    Education<br>
+                                    Healthcare<br>
+                                    Local Government<br>
+                                    Population and Demographics<br>
+                                    State Register Calculations<br>
+                                    Presentations<br><br>
+                                </span>
+                            </div>
+                            <div class = Menu11>
+                                <span>GEOGRAPHY & MAPPING<br><hr><br>
+                                    Transportation  Carrier Network<br>
+                                    (Uber)<br>
+                                    SC Real Time Network<br>
+                                    SC State GIS<br>
+                                    Maps<br>
+                                    Interative Mapping<br>
+                                    Statewide Aerial Imagery<br><br>
+                                </span>
+                            </div>
+                            <div class = Menu11>
+                                <span>PROGRAMS & SERVICES<br><hr><br>
+                                    Precint Demographics and Redistricing<br>
+                                    State 911 Program<br>
+                                    Data Services and Online Solutions<br>
+                                    Geodetic Survery<br>
+                                    Fiscal Analysis<br>
+                                    2020 Census<br><br>
+                                </span>
+                            </div>        
+                            <div class = Menu11>
+                                <span>LEGISLATIVE FISCAL IMPACTS<br><hr><br>
+                                    Current General Assembly Session<br>
+                                    Previous General Assembly Session<br>
+                                    Forms<br></spans>               
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            <script>
+                /* When the user clicks on the button, 
+                toggle between hiding and showing the dropdown content */
+                function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+                }
+                
+                // Close the dropdown if the user clicks outside of it
+                window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }                
+
+                }
+            </script>
+                
+            <div class = "testing1">
+                <div id="img-div">
+                    <img id="image" alt="steve Irwin" <img src="Assets/RFA Logo Final.png" alt="img"> 
+                    <div class="testing3" >
+                       <h1 style = "font-size:1.4vw; ">SOUND CAROLINA<br>
+                        REVENUE AND FISCAL AFFAIRS OFFICE</h1>
+                        <p style = "font-size: 1vw;font-weight:normal;bottom: 0.5vw;line-height:1%">Transforming data into solutions for South Carolina</p>
+                    </div>
+                </div>
+            </div>
+        
+           <div id="img-div" style = "font-size:1vw">
+                <div class = "col1"><li>ABOUT US</li></div>
+                <div class = "col2"><li>EVENTS</li></div>
+                <div class = "col3"><li>BOARDS & COMMITTEES</li></div>
+                <div class = "col4">
+                    <div class="search-field">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                    <form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
+                        <label>
+                            <input type="text" style = "font-size:1vw" stlye =  class="" placeholder="Enter search item" value="" name="s" title="Search" />
+                            <span class="screen-reader-text">&nbsp;&nbsp;SEARCH&nbsp;&nbsp;</span>
+                        </label>
+                        <input type="submit" class="search-submit" value="Search" />
+                    </form>                
+                </div>
+            </div>          
+        </nav>
+    </header>   
+
+
+    <div class = container>
+        <div class = "centered2">
+            <img src="Assets/shutterstock_42474535.jpg" alt="img"/>
+            <div class="centered">
+                <p style = "font-size:1.9vw">Providing independent research, analysis, and <br>
+                resources to facilitate informed policy decisions <br>
+                and administration of services<br><br> </p>
+                <div class="search">
+                    <input type="text"  style = "font-size:1.2vw"class="searchTerm" placeholder="Search rfa.sc.gov"> 
+                    <button type="button"  style="font-size:1vw;color:white;"class="button1">SEARCH&nbsp;<i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class = "container">
+        <div class = "tools">
+            <div class = "divof44">
+                <img src = "Assets/Data-Research-Icon.svg" alt="img"/>
+            </div>
+            <div class = "divof4">
+                <img src = "Assets/Geography-Icon.svg" alt="img"/>
+            </div>
+            <div class = "divof4">
+                <img src = "Assets/Legislative-Icon.svg" alt="img"/>
+            </div>
+            <div class = "divof444">
+                <img src = "Assets/Programs-Icon.svg" alt="img"/>
+            </div>
+        </div>
+    </div>
+
+    
+    <style>
+        body {
+          background-color: #ffffff;
+        }
+    </style>
+    
+
+    <div class = "container">        
+        <div class = "control">        
+            <div class = "Popular" style = "font-size:1.2vw"><p>POPULAR SERVICES AND LINKS<hr></p>
+                <div class = "Popular2"> <p><a href=>Overview and History off the South Carolina State Budget<br><br>
+                    Employer Contribution Trends<br><br>
+                    Appropriation Bills and Acts</a></p>
+                </div>
+                <div class = "Popular2"> <p><a href=>Overview and History of the South<br>
+                    Carolina State Budget<br><br>
+                    Employer Contribution Trends - June 4, 2019<br><br>
+                    Executive Budget Office State Agency Budget Plans(Requests)</a></p>
+                </div>
+                <div class = "Popular2"><p><a href=>Overview and History of the South<br>
+                    Carolina State Budget<br><br>
+                    Employer Contribution Trends - June 4 2019<br><br>
+                    Executive Budget Office<br>
+                    State Agency Budget Plans(Requests)</a></p>
+                </div>
+            </div>        
+        </div>
+    </div>
+
+    <div class = "container">
+        <div class = "control">
+            <div class = "box0" style = "font-size:1.34vw" >
+                <p>Recent Updates <hr><br><br>
+                    <a href>Local Government Finance<br></a>
+                    Versibulum rutrum quan vitae fringilla tincidunt. Suspendisse nec<br>
+                    tortor urna. Ut laoreet sodales<br>
+                    Published: Jan 2, 2020 <span class="borderexample">Updated</span><br><br>              
+                <a href>Transportation Network Carrier Maps<br></a>
+                Published: Jan 2, 2020 <span class="borderexample">New</span><br><br>
+                <a href>BEA Long-Range General Fund Revenue Plan for FY<br></a>
+                2019-20 to FY 2022-23<br>
+                Versibulum rutrum quan vitae fringilla tincidunt. Suspendisse nec<br>
+                    tortor urna. Ut laoreet sodales<br>
+                    Published: Dec 16, 2019 <span class="borderexample">Updated</span><br><br>      
+                <a href>Budget Development<br></a>
+                Pulished: Dec 16, 2019 <span class="borderexample">New</span><br><br>     
+                <a href>November 2019 General Fund Revenue Digest<br></a>
+                Published Dec13, 2019 <span class="borderexample">New</span><br><br>    
+                <buttom class="borderexample2">VIEW MORE</buttom>
+                <br><br></p>
+            </div>
+            <div class = "box1"  style = "font-size:1.2vw">
+                <p> Calendar of Events<hr><br><br></p>
+                <div class = "next">
+                    <div class = "word" style = "font-size: 1.5vw">NOV <br> 22</div>
+                        <p> <span class="borderexample1a">Updated</span><br>
+                        Board of Economic Advisors Meeting<br>
+                        Board of Economic Advisors Meeting<br>
+                        <i class="fa fa-map-marker"></i> &nbsp;&nbsp; Room 417, Bowers Conference Room, Rembert<br>
+                        Dennis Building<br>
+                        <i class="fa fa-clock-o"></i> &nbsp;1:30 pm <br>
+                        <i class="fa fa-address-book-o"></i> &nbsp; (803) 734-2265
+                        </p>         
+                    </div>  
+                <div class="displayHR"><hr></div>
+                <br><br>
+
+                <div class = "next">
+                    <div class = "word" style = "font-size: 1.5vw">NOV <br> 23</div>
+                        <p> <span class="borderexample1b">Cancelled </span> <br>
+                            Board of Economic Advisors Meeting<br>
+                            <i class="fa fa-map-marker"></i> &nbsp;&nbsp; Room 417, Bowers Conference Room, Rembert<br>
+                            Dennis Building<br>
+                            <i class="fa fa-clock-o"></i> &nbsp;1:30 pm <br>
+                            <i class="fa fa-address-book-o"></i> &nbsp; (803) 734-2265
+                        </p>                  
+                </div> 
+                <div class="displayHR"><hr></div>    
+                <br><br>  
+
+                <div class = "next">
+                    <div class = "word" style = "font-size: 1.5vw">NOV <br> 25</div>
+                    <p> 
+                        Board of Economic Advisors Meeting<br>
+                        <i class="fa fa-map-marker"></i> &nbsp;&nbsp; Room 417, Bowers Conference Room, Rembert<br>
+                        Dennis Building<br>
+                        <i class="fa fa-clock-o"></i> &nbsp;1:30 pm <br>
+                        <i class="fa fa-address-book-o"></i> &nbsp; (803) 734-2265
+                    </p>    
+                </div> 
+                <div class="displayHR"><hr></div>
+                <br><br>
+
+                <div class = "next">
+                    <div class = "word" style = "font-size: 1.5vw">NOV <br> 28</div>
+                    <p> 
+                        Board of Economic Advisors Meeting<br>
+                        Board of Economic Advisors Meeting<br>
+                        <i class="fa fa-map-marker"></i> &nbsp;&nbsp; Room 417, Bowers Conference Room, Rembert<br>
+                        Dennis Building<br>
+                        <i class="fa fa-clock-o"></i> &nbsp;1:30 pm <br>
+                        <i class="fa fa-address-book-o"></i> &nbsp; (803) 734-2265       
+                    </p>         
+                </div>
+                <button class="borderexample2b">VIEW ALL EVENTS</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class = "container">
+        <div id="footer">
+            <div class="text" style = "font-size:1.2vw">
+                <p>South Carolina<br>
+                Rvenue and Fiscal Affairs Office<br><br>
+                <img src="Assets/Group 262.png" alt="img"  width= 5px/>
+                </p>
+    
+                <p>Privacy Statement<br>
+                FOIA<br>
+                Disclosures and Reporting<br>
+                Report Fraud<br>
+                Accessibility<br>
+                Contact Us<br><br></p>
+
+                <p>MAIN OFFICE<br>
+                1000 Assembly St. Rembert Dennis Building, Suite 42<br>
+                Columbia, SC 29201<br><br>
+                GEODETIC SURVEY SECTION<br>
+                5 Geology Rd<br>
+                Columbia, SC 29212<br><br>
+                HEALTH AND DEMOGRAPHICS DIVISION<br>
+                1000 Assembly St. Rembert Dennis Building, Suite 240<br>
+                Columbia, SC 29201<br><br></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+    
+
+</body>
+
+</html>
