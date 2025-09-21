@@ -1,0 +1,492 @@
+/*Center Text*/
+.toCenter{
+  color: white;
+  border: 10px white;
+  height: 100%;
+  margin: auto;
+  align-items: center; /*vertically*/
+  display: flex;
+  justify-content: right; /*horizontally*/
+}
+
+mark {
+  background-color: rgb(207, 207, 240);
+  color: black;
+  }
+
+.img-logo {
+  width: 150px;
+}
+
+.img-bottom {
+  width: 100px;
+  height: 100px;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.row::after{
+  content:  "";
+  display: table;
+  clear: both;
+}
+
+.toCenter2{
+  color: white;
+  border: 55px white;
+  height: 100%;
+  margin: auto;
+  align-items: center; /*vertically*/
+  display: flex;
+  justify-content: center; /*horizontally*/
+}
+
+.column {
+  float:  left;
+  width: 23%;
+  
+  border: 10px white;
+  height: 45vh;
+  text-align: center;
+  align-items: center; /*vertically*/
+  display: flex;
+  justify-content: flex-end; /*horizontally*/ 
+}
+
+/*For buttons and images inside div*/
+.column img{
+  height:200px;
+  width:330px;
+  padding: 5px;
+  border:  1px solid #ADD8E6; /*square button*/
+  margin: auto;
+  align-items: center; /*vertically*/
+  display: flex;
+  justify-content: center; /*horizontally*/
+}
+
+.column2 {
+
+  float:  left;
+  width: 55%;
+  padding: 10px;
+  border: 10px white;
+  height: 15vh;
+  text-align: center;
+   
+}
+
+
+.column2b {
+  float:  left;
+  width: 12%;
+  
+  text-align: center;
+  align-items: center; /*vertically*/
+  display: flex;
+  justify-content: flex-end; /*horizontally*/ 
+}
+.column2c {
+  float:  left;
+  width: 3%;
+  
+  text-align: center;
+  align-items: center; /*vertically*/
+  display: flex;
+  justify-content: flex-end; /*horizontally*/ 
+}
+
+
+
+.column2d {
+  float:  left;
+  width: 50%;
+  padding: 10px;
+  border: 10px white;
+  height: 35vh;
+  text-align: center;
+}
+
+/*For buttons and images inside div*/
+.column2d img{
+  height:250px;
+  width:400px;
+  border:  1px solid #ADD8E6; /*square button*/
+  margin: auto;
+  align-items: center; /*vertically*/
+  display: flex;
+  justify-content: center; /*horizontally*/
+}
+
+.column2e {
+  float:  left;
+  width: 50%;
+  padding: 10px;
+  border: 10px white;
+  height: 35vh;
+  text-align: center;
+}
+
+/*For buttons and images inside div*/
+.column2e img{
+  height:250px;
+  width:400px;
+  border:  1px solid #ADD8E6; /*square button*/
+  margin: auto;
+  align-items: center; /*vertically*/
+  display: flex;
+  justify-content: center; /*horizontally*/
+}
+
+
+.column3 {
+ float:  left;
+  width: 46.4%;
+  padding: 10px;
+  border: 10px white;
+  height: 35vh;
+   
+}
+
+.column4 {
+ float:  left;
+  width: 100%;
+  padding: 10px;
+  border: 10px white;
+   text-align: center;
+    align-items: center; /*vertically*/
+  display: flex;
+  justify-content: center; /*horizontally*/
+
+}
+
+.column4 {
+ float:  left;
+  width: 100%;
+  padding: 10px;
+  border: 10px white;
+
+    align-items: center; /*vertically*/
+  display: flex;
+  justify-content: center; /*horizontally*/
+
+}
+
+
+.column5 {
+ float:  left;
+  width: 100%;
+  padding: 10px;
+  border: 10px white;
+    height: 25vh;
+    align-items: center; /*vertically*/
+  display: flex;
+  justify-content: center; /*horizontally*/
+
+}
+
+.column6 {
+ float:  left;
+  width: 50%;
+  padding: 10px;
+  border: 10px white;
+  height: 35vh;
+}
+
+.column7 {
+ float:  left;
+  width: 6.4%;
+  padding: 10px;
+  border: 10px white;
+  height: 35vh;
+}
+
+.column8 {
+ align-items: center; /*vertically*/
+  display: flex;
+  justify-content: center; /*horizontally*/
+}
+
+.column9 {
+ float:  left;
+  width: 26.4%;
+  padding: 10px;
+  border: 10px white;
+  height: 35vh;
+}
+
+.column10 {
+ float:  left;
+  width: 7.4%;
+  padding: 1px;
+  border: 10px white;
+  height: 35vh;
+}
+
+.column11 {
+ float:  left;
+  width: 60.4%;
+  padding: 1px;
+  border: 10px white;
+  height: 35vh;
+}
+
+.MatchInfo {
+  float:  left;
+  width: 46.4%;
+  padding: 10px;
+  border: 10px white;
+  height: 12vh;
+  text-align: center;
+}
+
+.DateAndTime {
+  float:  left;
+  width: 46.4%;
+  padding: 10px;
+  border: 10px  white;
+  height: 5vh;
+  text-align: center;
+}
+
+.DateAndTime2 {
+  float:  left;
+  width: 24.4%;
+  padding: 10px;
+  border: 10px  white;
+  height: 2vh;
+  text-align: center;
+}
+
+.DateAndTime3 {
+  float:  left;
+  width: 19.4%;
+  padding: 10px;
+  border: 10px  white;
+  height: 2vh;
+  text-align: center;
+}
+
+/*Bottom Color*/
+section{
+  width:  100%;
+  /*height:  320vh;*/
+  color:  #fff;
+  /*background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);*/
+  background-size: 400% 400%;
+  position: relative;
+}
+
+
+.image {
+display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.container2 {
+  position: relative;
+  width: 100%;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container2:hover .overlay-image{
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+
+.row2:hover .image {
+  opacity: 0.3;
+}
+
+.row2:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  /*background-color: #04AA6D;*/
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.btn2{
+  color: #fff;
+  font-size: 19px;
+  border:  3px solid #ADD8E6; /*square button*/
+  background: linear-gradient(-45deg, #808080, #000000, #23A6D5, #23D5AB);
+  padding: 10px 60px;
+  border-radius: 2px;
+}
+
+/*
+body {
+  font-family: Arial, sans-serif;
+  background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}*/
+
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #808080;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 20px auto;
+  padding: 15px;
+  background: #D3D3D3;
+  border-radius: 5 px;
+  width: 11%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+
+    width: 70%;
+  }
+}
+
+#web2 {
+  position:fixed;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);
+  border:solid 1px #000;
+  display:none;
+  background-color:#fff;
+}
+
+#overlay2 {
+  position:fixed;
+  left:0;
+  top:0;
+  width:100vw;
+  height:100vh;
+  display:none;
+  background-color:#000;
+  opacity:0.5;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 45px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+
+}
